@@ -1,0 +1,34 @@
+/* .imagen-heroe{
+    height: 200px;
+    width: 300px;
+}
+
+.card-container{
+    width: 600px;
+} */
+
+
+
+._hero-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+._hero-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+
+._imagen-heroe{
+    width: 250px;
+    height: 200px;
+}
+._hero-card-info{
+    padding: 20px;
+}
